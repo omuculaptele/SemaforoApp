@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Register">
+
+   <EditText
+       android:id="@+id/etUsername"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="User Name"
+       android:layout_marginTop="50dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-Mail"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/etUsername"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/etEmail"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/btnRegister"
+        android:layout_below="@id/etPassword" />
+
+    <TextView
+        android:id="@+id/tvAccExists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/alreadyHave"
+        android:layout_below="@id/btnRegister" />
+
+</RelativeLayout>

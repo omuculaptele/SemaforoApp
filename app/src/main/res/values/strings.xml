@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SemaforoApp</string>
+    <string name="btnRegister">Sign Up</string>
+    <string name="alreadyHave">Already have account? Go to Login!</string>
+    <string name="btnSignIn">Sign In</string>
+    <string name="signIn">Sign In</string>
+    <string name="signUp">Sign Up</string>
 </resources>
